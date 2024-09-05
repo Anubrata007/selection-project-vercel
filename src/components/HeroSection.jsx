@@ -28,7 +28,7 @@ const HeroSection = () => {
                 {myData.map((item, index) => {
                     const { name, address, email, phone } = item;
                     return (
-                        <div key={index} onClick={() => {
+                        <div className='rounded shadow-md hover:shadow-lg container mx-auto overflow-hidden' key={index} onClick={() => {
                             setShowModal(true)
                             setClickedItem(index);
                         }}>

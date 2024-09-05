@@ -33,8 +33,8 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="hidden lg:flex justify-center space-x-12 items-center">
-                        <a href="#" className="py-2 px-3 border border-teal-600 rounded-md hover:bg-teal-400">Log In</a>
-                        <a href="#" className="py-2 px-3 border border-teal-600 rounded-md hover:bg-teal-400">Sign In</a>
+                        <a href="#" className="py-2 px-3 border shadow-md hover:shadow-lg rounded-md hover:text-teal-400">Log In</a>
+                        <a href="#" className="py-2 px-3 border shadow-md hover:shadow-lg rounded-md hover:text-teal-400">Sign In</a>
                     </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={toggleNavbar}>
